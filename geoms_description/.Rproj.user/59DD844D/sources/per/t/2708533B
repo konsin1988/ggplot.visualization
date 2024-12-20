@@ -1,0 +1,27 @@
+{
+    "id": "2708533B",
+    "path": "~/r_lang/ggplot/geoms_description/point.errorbar.R",
+    "project_path": "point.errorbar.R",
+    "type": "r_source",
+    "hash": "160504798",
+    "contents": "",
+    "dirty": false,
+    "created": 1734687274078.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "73,40",
+        "scrollLine": "66"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1734714636,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1734714636098,
+    "read_only": false,
+    "read_only_alternatives": []
+}
