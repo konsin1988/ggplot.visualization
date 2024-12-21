@@ -79,9 +79,14 @@ ggplot(sales, aes(x = factor(date), y = sale, color = shop, group = shop))+
                geom='line')
 
 
-
-
-
+ggplot(mtcars, aes(x = factor(am),
+                   y = mpg,
+                   col = factor(cyl),
+                   group = factor(cyl)))+
+  # stat_summary(fun = mean, geom = 'point')+
+   stat_summary(fun.data = mean_cl_boot, geom = 'errorbar', width=0.5, 
+                position = position_dodge(0.2))+
+  stat_summary(fun = mean, geom = 'line', position = position_dodge(0.2))
 
 
 
